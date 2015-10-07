@@ -1,0 +1,31 @@
+/* 
+    Document   : all-shared.css
+    Created on : Sep 3, 2012, 10:27:05 PM
+    Author     : Ray
+    Description:
+        CSS shared between both mobile and standard browser forms
+*/
+
+.good-messsage { 
+	color: green;
+	font-style: italic;
+}
+
+.error-messsage { 
+	color: red;
+	font-style: italic;
+}
+/* This class will be hidden in production.  It is used in Single Rep UI to calculate percentages on maxes */
+.original-value
+{
+	visibility: hidden;
+	position: absolute;
+	color:red;
+	background-color: yellow;
+}
+
+/* Created because of use on Paleo form and wod wizard*/
+.hidden-data
+{
+	display:none;
+}

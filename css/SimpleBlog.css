@@ -1,0 +1,335 @@
+/* -------------------------------------------------------
+
+   AUTHOR           :  	Erwin Aligam
+   WEBSITE          :   http://www.styleshout.com/
+   TEMPLATE NAME    : 	SimpleBlog 1.0
+   TEMPLATE CODE    : 	S-0007
+   VERSION          :   1.1
+   LAST DATE MOD    :   January 20, 2010 
+
+ --------------------------------------------------------- */
+ 
+/* -------------------------------------------------------
+   HTML ELEMENTS
+---------------------------------------------------------- */
+
+/* Top Elements */
+* { margin: 0; padding: 0; outline: 0; }
+
+body {
+	background: #FFF;
+	font: 12px/1.6em 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Sans-Serif;
+	color: #555;
+	text-align: center;
+}
+/* links */
+a:link, a:visited {
+	background: inherit;
+	text-decoration: none;
+	color: #667F99;
+}
+a:hover {
+	background: inherit;
+	color: #996800;
+}
+/* headers */
+h1, h2, h3 {
+	font-family: Verdana, Tahoma, 'Trebuchet MS', Sans-serif;
+	font-weight: Bold; 		
+}
+h1 { font-size: 130%; }
+h2 { font-size: 120%; text-transform: uppercase; }
+h3 { font-size: 120%; color: #007E80; }
+
+p {
+	margin: 0;
+	padding: 10px 12px;
+}
+h1, h2, h3 {
+    padding: 15px 12px;
+}
+
+ul, ol {
+	margin: 10px 20px;
+	padding: 0 20px;
+}
+
+/* images */
+img {
+	background: #FAFAFA;
+    border: 1px solid #DCDCDC;
+	padding: 8px;
+}
+img.float-right {
+  margin: 5px 0px 5px 10px;  
+}
+img.float-left {
+  margin: 5px 10px 5px 0px;
+}
+
+code {
+  margin: 5px 0;
+  padding: 15px 20px;
+  text-align: left;
+  display: block;
+  overflow: auto;  
+  font: 500 1em/1.5em 'Lucida Console', 'courier new', monospace ;
+  /* white-space: pre; */
+  background: #FAFAFA;
+  border: 1px solid #f2f2f2;  
+}
+acronym {
+  cursor: help;
+  border-bottom: 1px solid #777;
+}
+
+/* blockquote */
+blockquote {
+	margin: 10px;
+ 	padding: 10px 10px 10px 35px;
+    border: 1px solid #f2f2f2;
+  	background: #FAFAFA url(/images/simpleblog/quote.gif) no-repeat 10px 12px;
+}
+
+/* form elements */
+form {
+	margin:10px;
+    padding: 10px;
+	border: 1px solid #f2f2f2; 
+	background-color: #FAFAFA; 
+}
+label {
+	display:block;
+	font-weight:bold;
+	margin:5px 0;
+}
+input {
+	padding: 3px 5px;
+	border:1px solid #eee;
+	color:#777;
+    font-size: 1em;
+}
+textarea {
+	width:400px;
+	padding: 3px 5px;
+	border:1px solid #eee;
+	height:100px;
+	display:block;
+	color:#777;
+    font-size: 1em;
+}
+input.button { 
+	margin: 0; 
+	font: bolder 12px Arial, Sans-serif; 
+	border: 1px solid #CCC; 
+	padding: 2px 3px; 
+	background: #FFF;
+	color: #275F6C;
+}
+/* search form */
+form.search {
+	padding: 0; margin: 0; 
+	vertical-align: bottom;
+	border: none;
+	background-color: transparent;
+}
+form.search input.textbox { 
+	margin: 0; padding: 1px;
+	width: 120px;
+	border: 1px solid #CCC; 
+	background: #FFF;
+	color: #333; 
+}
+form.search input.button {
+	height: 20px;
+	padding: 1px 3px;
+	width: 60px;
+}
+
+/* -----------------------------------------
+   LAYOUT
+-------------------------------------------- */
+#wrap {
+	width: 833px;
+	background: url(/images/simpleblog/bg.jpg) repeat-y center top;
+	margin: 0 auto;
+	text-align: left;
+}
+#content-wrap {
+	position: relative;
+	width: 91%;
+	margin: 0 auto;
+	padding: 0;	
+}
+/* header */
+#header {
+	position: relative;
+	width: 833px;
+	height: 100px;
+	background: #FFF url(/images/simpleblog/header.jpg) no-repeat center top;
+	margin: 0; padding: 0;
+	font-size: 14px;
+	color: #FFF;
+}
+#header h1#logo {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: bold 40px 'Trebuchet MS', Arial, Sans-serif;
+	letter-spacing: -2px;
+	color: #FFF;
+	text-transform: none;
+	
+	/* change the values of top and Left to adjust the position of the logo*/
+	top: 22px; left: 53px;
+}
+#header h2#slogan {
+	position: absolute;
+	z-index: 9999999;
+	margin: 0; padding: 0;
+	font: bold 12px 'Trebuchet MS', Arial, Sans-serif;
+	text-transform: none;
+	color: #FFF;
+	
+	/* change the values of top and Left to adjust the position of the slogan*/
+	top: 65px; left:75px;			
+}
+#header #searchform {
+	float: right;
+	padding: 35px 40px 0 0;
+	display: inline;
+}
+/* menu */
+#menu {
+	clear: both;
+	width: 833px;
+	height: 30px;
+	background: #FFF url(/images/simpleblog/menubg.jpg) repeat-y;
+	margin: 0;
+	font: bolder 12px/30px 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Sans-Serif;
+}
+#menu ul{
+	margin: 0; padding: 0 0 0 40px;
+}
+#menu ul li {
+	float: left;
+	list-style: none;		
+}
+#menu ul li a {
+	display: block;
+	text-decoration: none;	
+	padding: 0 10px;
+	background: inherit;
+	color: #FFF;
+}
+#menu ul li a:hover {
+   background: #FFF; 
+	color: #333;  
+}
+#menu ul li#current a {	
+	background: #30899F; 
+	color: #FFF;	
+}
+
+/* Main */
+#main {
+	float: left;	
+	width: 72%;
+	padding: 0;
+    margin: 10px 0 0 0;
+}
+#main h1 {
+	color: #667F99; 
+	border-bottom: 1px solid #CCCCCC;
+	background: #F6F6F6 url(/images/simpleblog/arrow.gif) no-repeat 5px 10px;
+	padding: 5px 0 5px 20px;
+	margin: 10px 10px 0 10px;
+}
+
+#main img{
+	width: 100%;
+}
+
+.post-footer {
+	background-color: #FAFAFA;
+	padding: 6px 5px; margin: 20px 12px;
+	border: 1px solid #f2f2f2;
+	font-size: 95%;	
+}
+.post-footer .date {
+	background: url(/images/simpleblog/clock.gif) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+.post-footer .comments {
+	background: url(/images/simpleblog/comment.gif) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+.post-footer .readmore {
+	background: url(/images/simpleblog/page.gif) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+
+/* sidebar */
+#sidebar {
+	float: right;
+	width: 26%;
+	padding: 0; margin: 10px 0 0 0;
+}	
+#sidebar h1 {
+	margin: 10px 0 0 0; 
+	padding: 5px 10px;
+	font: bold 1.1em 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Sans-Serif;
+	color: #FFF;	
+	background: #B6B8BB;	
+}
+#sidebar ul.sidemenu {
+	list-style: none;
+	text-align: left;
+	margin: 3px 0px 8px 0; padding: 0;
+	text-decoration: none;
+    font-size: .9em;
+}
+#sidebar ul.sidemenu li {
+	border-bottom: 1px solid #EFF0F1;
+	background: url(/images/simpleblog/bullet.gif) no-repeat 2px 5px ;
+	padding: 3px 0 3px 25px;
+	margin: 0 2px;			 
+}
+
+* html body #sidebar ul.sidemenu li { height: 1%; }
+
+#sidebar ul.sidemenu a:link,
+#sidebar ul.sidemenu a:visited {
+	font-weight: bold;
+	padding: 2px 0; 		
+	background: none;
+    color: #8599AD;
+}
+#sidebar ul.sidemenu a:hover {
+    color: #555;
+}
+
+/* footer */
+#footer {
+	clear: both;
+	color: #66737B;
+	font: normal 90% 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Sans-Serif;
+	background: #FFF url(/images/simpleblog/footerbg.jpg) no-repeat center top;	
+	width: 833px;
+	height: 60px;
+	text-align: center;
+	padding: 5px 0 3px 0;
+	margin: 0 auto;
+}
+#footer a { text-decoration: none; }
+
+/* alignment classes */
+.float-left  { float: left; }
+.float-right { float: right; }
+.align-left  { text-align: left; }
+.align-right { text-align: right; }
+
+/* additional classes */
+.clear { clear: both; }
+.gray { color: #CCC; }
+
+

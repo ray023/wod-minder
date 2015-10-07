@@ -1,0 +1,65 @@
+/* 
+    Document   : mobile-main
+    Created on : Sep 3, 2012, 10:20:46 PM
+    Author     : Ray
+    Description:
+        Provides basic css layout for all mobile pages
+*/
+
+.number-block
+{
+	text-align: right;
+	padding-right: 2px;
+}
+
+.date-block
+{
+	text-align: right;
+	padding-right: 2px;
+}
+
+/*Highlights the user in grid results*/
+.self-row
+{
+	background-color: lightgreen;
+}
+
+.mobile-grid-header
+{
+	background-color: darkgray;
+	color: black;
+	text-shadow:	none;
+	font-weight: bold;
+}
+
+.alternate-row
+{
+	background-color: lightgray;
+}
+
+/* Makes the grid blocks w/o the image the same height as the image */
+.grid-row-with-image
+{
+	height: 42px;
+	padding-top: 13px;
+}
+
+.center-wrapper
+{
+	text-align: center;
+}
+.center-wrapper * 
+{
+	margin: 0 auto;
+}
+
+.barbell-weight-display
+{
+	font-size:	1.5em;
+}
+
+.total-row
+{
+	font-weight: bold;
+	background-color: darkgray;
+}

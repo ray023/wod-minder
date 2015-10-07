@@ -1,0 +1,150 @@
+body
+{
+	background: white;
+}
+
+#_resultsMenu
+{
+	text-align: center;
+	width: 100%;
+}
+
+#_resultsMenu button
+{
+	font-size: 2em;
+	width: 400px;
+}
+
+
+#_resultsContainer
+{
+	background: white;
+}
+
+#_resultsContainer table
+{
+	width:100%;
+	border: 1px;
+}
+
+#_resultsContainer table caption
+{
+	font-size: 5em;
+}
+
+
+#_resultsMenu button
+{
+	display:table-cell;
+}
+
+.results-master-table
+{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	border:#ccc 1px solid;
+
+	
+}
+.results-master-table td
+{
+	vertical-align:top;
+}
+
+.results-master-table tfoot td
+{
+	padding:5px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+
+.numeric-td {
+	text-align: right;
+}
+
+.ratings-grid tfoot{
+	font-weight:   bolder;
+	border-width:  thick;
+}
+
+.gender-results  a:link {
+	color: #666;
+	font-weight: bold;
+	text-decoration:none;
+}
+.gender-results  a:visited {
+	color: #999999;
+	font-weight:bold;
+	text-decoration:none;
+}
+.gender-results  a:active,
+.gender-results  a:hover {
+	color: #bd5a35;
+	text-decoration:underline;
+}
+.gender-results  {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	border:#ccc 1px solid;
+
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+.gender-results  th {
+	text-align: center;
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+.gender-results  tr {
+	text-align: left;
+}
+.gender-results  td {
+	padding:5px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+.gender-results  tr.even td {
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+.gender-results  tr:last-child td {
+	border-bottom:0;
+}
+.gender-results  tr:last-child td:first-child {
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+.gender-results  tr:last-child td:last-child {
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+.gender-results  tr:hover td {
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}

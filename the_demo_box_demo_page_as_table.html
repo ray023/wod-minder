@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<title>The Demo Box</title> 
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<style TYPE="text/css"> 
+			table, th, td
+			{
+			border: 1px solid black;
+			width: 100%;
+			}
+			td
+			{
+				width: 33%; /* even though I specifiy in code the colwidth, this is required to keep spacing correct */
+				display: table-cell;
+				vertical-align: top; 
+			}
+			td h1
+			{
+				text-align: center;
+			}
+
+			body 
+			{
+				background: #3c3f42 url('../images/body_bg.gif');
+				font-family: Helvetica, sans-serif;
+				font-size: 62.5%;
+				line-height: 1.125em;
+				color: #333;
+				color: white;
+			}
+
+			.clear-both
+			{
+				clear: both;
+			}
+			
+			#wrap {
+				margin: 0 auto;
+				width: 800px;
+			}
+
+			#content {
+				float: left;
+				
+			}
+
+			#footer {
+				clear: both;
+			}
+			
+		</style>
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript">
+		function wodminderCallback(text) {
+				var returnedWods	=	text.wodJsonHtml;
+				var fixed_string = returnedWods.substring(1, returnedWods.length - 1);
+				$('#_wods').html(fixed_string);
+		}
+
+			$(document).ready(function() {
+
+				var box_id	=	6; //The id of the box from the wodminder database (6 is the demo box)
+				var limit	=	250; //Number of wods to be returned
+				var the_url	=	'http://my.wod-minder.com:666/index.php/wod/get_public_wods_for_box_website/' + box_id + '/' + limit + '/table/?callback=?';
+
+				$.ajax({
+					url: the_url,
+					dataType: 'jsonp',
+					jsonpCallback: 'wodminderCallback'
+				});
+								
+			 });
+			 
+
+		</script>
+	</head>
+	<body>
+		
+    <div id="wrap">
+        <div  id="header">
+			<h1>The Demo Box</h1>
+        </div>
+        <div id="content">
+			<div id="_wods"></div>
+        </div>
+        <div id="footer">
+		Footer
+        </div>
+    </div>
+	</body>
+</html>
