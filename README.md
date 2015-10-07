@@ -13,6 +13,10 @@ WOD-Minder is an application for tracking workouts and maxes; essential data req
 # Run WOD-Minder 
 
   Contact me if you are having trouble running this application.  
+  
+# Production version
+	
+	A working, active of WOD-Minder can be found at [http://app.wod-minder.com](http://app.wod-minder.com)
 
 # Why WOD-Minder?
 
