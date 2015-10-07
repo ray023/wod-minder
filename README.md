@@ -8,11 +8,11 @@ WOD-Minder is an application for tracking workouts and maxes; essential data req
 
 # Run WOD-Minder 
 
-  Contact me if you want to run this application.  
+  Contact me if you are having trouble running this application.  
 
 # Why WOD-Minder?
 
-  I started this projct in 2012.  Back then, there were no strong competitors in this space.  Also, there was no app that had the tools I needed.  I decided to make my own.
+  I started this project in 2012.  There were no strong competitors in this space in 2012.  Also, no apps existed containing the tools I needed to log data efficiently.
 
 ## Authors
 
