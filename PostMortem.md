@@ -1,4 +1,4 @@
-back to [ReadMe](https://github.com/ray023/wod-minder/blob/master/ReadMe.md)
+back to [ReadMe](https://github.com/ray023/wod-minder/blob/master/README.md)
 
 # WOD-Minder Post Mortem
 <ol>
