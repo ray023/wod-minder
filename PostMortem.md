@@ -141,6 +141,6 @@ back to [ReadMe](https://github.com/ray023/wod-minder/blob/master/README.md)
 	<li><b>Summary</b></li>
 		<ol>
 		<li>WOD-Minder has been a valuable and fun learning experience through all aspects of development.  My goal was to create an application I could use for my own benefit; but carry it forward to others who needed the same set of tools.  Career experience gave me a good starting point, but it was my passion that turned this idea into a living entity.  </li>
-		<li>It also set me up to create the much more popular app:  [Find A Fit](FindAFit)</li>
+		<li>It also set me up to create the much more popular app:  [Find A Fit](https://github.com/ray023/FindAFit)</li>
 		</ol>
 </ol>
