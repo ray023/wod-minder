@@ -4,7 +4,11 @@ WOD-Minder is an application for tracking workouts and maxes; essential data req
 
 # WOD-Minder Technologies
 
- WOD-Minder is a browser-based application.  To run, it requires a LAMP server.
+ WOD-Minder is a browser-based application built with following Frameworks:
+ 
+ * [CodeIgniter](http://www.codeigniter.com/)
+ * [jQuery Mobile](http://jquerymobile.com/)
+ * LAMP server.
 
 # Run WOD-Minder 
 
