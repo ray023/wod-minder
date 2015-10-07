@@ -17,7 +17,7 @@ WOD-Minder is an application for tracking workouts and maxes; essential data req
 
 # Post Mortem
 
-A breakdown of WOD-Minder's peaks and valleys can be found in [Post Mortem](wod-minder/blob/master/PostMortem.md)
+A breakdown of WOD-Minder's peaks and valleys can be found in [Post Mortem](https://github.com/ray023/wod-minder/blob/master/PostMortem.md)
  
  
 # Production version
