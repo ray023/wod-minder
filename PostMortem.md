@@ -107,36 +107,35 @@ back to [ReadMe](https://github.com/ray023/wod-minder/blob/master/README.md)
 					<li><b>The name:</b>  I don’t even like the name “WOD-Minder”.  It was a spin on some older products I had worked on in the past that had “-Minder” suffixed to the end of it.  Minder is a British term that means a person whose job it is to look after someone or something.  The definition was applicable, but I didn’t like it.  However, I don’t think the name played a crucial role for the app’s success or failure.  I just wanted something easy to remember and something easy to find via search engine.</li>
 					<li><b>Processes that didn’t work well</b></li>
 						<ol>
-							<li>1.	I used the basic template of jQuery Mobile to build the app.  I love this framework, but it is definitely no frills.  I kept the black and gray default pattern.  This made the app look boring.  </li>
-							<li>2.	The UI became clunky over time.  Saving the daily wod or max was really easy but navigation to other functionality was difficult and not intuitive.</li>
+							<li>I used the basic template of jQuery Mobile to build the app.  I love this framework, but it is definitely no frills.  I kept the black and gray default pattern.  This made the app look boring.  </li>
+							<li>The UI became clunky over time.  Saving the daily wod or max was really easy but navigation to other functionality was difficult and not intuitive.</li>
 						</ol>
-					<li>vii.	What were the effects of key problems areas (i.e. on budget, schedule, etc.)?</li>
 				</ol>
 		</ol>
 	<li><b>Key Lessons Learned</b></li>
 		<ol>
-			<li>a.	If only I had the experience and tools three years ago that I have now.  (Always the case, right?  ).  Here’s how I would start today:</li>
+			<li>If only I had the experience and tools three years ago that I have now.  (Always the case, right?  ).  Here’s how I would start today:</li>
 				<ol>
-					<li>i.	Use Microsoft .NET technologies to build the Website and Web API</li>
+					<li>Use Microsoft .NET technologies to build the Website and Web API</li>
 						<ol>
-							<li>1.	Code First design; designing classes that follow good design practices and are easily testable.  </li>
-							<li>2.	MVC Razor </li>
+							<li>Code First design; designing classes that follow good design practices and are easily testable.  </li>
+							<li>MVC Razor </li>
 						</ol>
 					<li>ii.	Use SQL Server for the database; (I like MySQL but feel more comfortable using SQL Server.)</li>
 					<li>iii.	Microsoft Azure Services for </li>
 						<ol>
-							<li>1.	Hosting the WebSite and WEB API </li>
-							<li>2.	A SQL Server for the database.  </li>
+							<li>Hosting the WebSite and WEB API </li>
+							<li>A SQL Server for the database.  </li>
 						</ol>
 					<li>iv.	Athletes would have an App</li>
 						<ol>
-							<li>1.	Using OAuth authentication for quick, easy login</li>
-							<li>2.	Ionic Framework for an attractive, user-friendly UI; also allows one code base to be published to all the mobile stores</li>
+							<li>Using OAuth authentication for quick, easy login</li>
+							<li>Ionic Framework for an attractive, user-friendly UI; also allows one code base to be published to all the mobile stores</li>
 						</ol>
-					<li>v.	Gym Owners would have a Web Interface for all their management. </li>
+					<li>Gym Owners would have a Web Interface for all their management. </li>
 				</ol>
-			<li>b.	You get what you pay for; at least with web-hosting.  To save money, I went with a low-cost web-hosting company.  When I ran into issues requiring outside support, it cost me a lot of time trying to resolve them.  So much to the point where I ended up setting up and using my own server at Rackspace.  </li>
-			<li>c.	Don’t spend hours designing/coding very specific features for one potential client.  I started speaking with and attained the interest of the Number 2 guy at the largest CrossFit gym in the Southeast.  He was unhappy with their current product and wanted something more specific to their needs.  We worked together for about two months adapting WOD-Minder to fit those needs.  He provided a lot of positive feedback and all but swore on his life that approval would be simple.  In the end, when it came time for final approval, the owner shut it down.  </li>
+			<li>You get what you pay for; at least with web-hosting.  To save money, I went with a low-cost web-hosting company.  When I ran into issues requiring outside support, it cost me a lot of time trying to resolve them.  So much to the point where I ended up setting up and using my own server at Rackspace.  </li>
+			<li>Don’t spend hours designing/coding very specific features for one potential client.  I started speaking with and attained the interest of the Number 2 guy at the largest CrossFit gym in the Southeast.  He was unhappy with their current product and wanted something more specific to their needs.  We worked together for about two months adapting WOD-Minder to fit those needs.  He provided a lot of positive feedback and all but swore on his life that approval would be simple.  In the end, when it came time for final approval, the owner shut it down.  </li>
 		</ol>
 	<li><b>Summary</b></li>
 		<ol>
